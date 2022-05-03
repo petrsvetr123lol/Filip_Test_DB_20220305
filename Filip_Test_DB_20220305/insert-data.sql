@@ -1,0 +1,1 @@
+﻿INSERT INTO dbo.Faktury VALUES ('01/01/2003', 56, 'Lanik', 'molitan', 50, 300)

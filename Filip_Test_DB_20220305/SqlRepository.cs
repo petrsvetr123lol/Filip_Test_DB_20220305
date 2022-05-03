@@ -33,9 +33,6 @@ namespace Filip_Test_DB_20220305
                                 nazev = Convert.ToString(sqlDataReader["nazev"]),
                                 pocet = Convert.ToInt32(sqlDataReader["pocet"]),
                                 cena = Convert.ToSingle(sqlDataReader["cena"]),
-                                celkem = Convert.ToSingle(sqlDataReader["celkem"]),
-                                DPH = Convert.ToSingle(sqlDataReader["DPH"]),
-                                cenaDPH = Convert.ToSingle(sqlDataReader["cenaDPH"])
 
                             };
                                 faktury.Add(faktura);
